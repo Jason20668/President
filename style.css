@@ -2,3 +2,38 @@
     height: 50px;
     weight: 50px;
 }
+
+body {
+background-color: #EDCFA9;
+}
+
+.sizing {
+    font-size: 75px;
+    text-shadow: 2px 2px 0 #000000,
+    -1px 1px 0 #000000,
+    1px -1px 0 #000000,
+    -1px -1px 0 #000000,
+    0px 1px 0 #000000,
+    0px -1px 0 #000000,
+    -1px 0px 0 #000000,
+    1px 0px 0 #000000,
+    2px 2px 0 #000000,
+    -2px 2px 0 #000000,
+    2px -2px 0 #000000,
+    -2px -2px 0 #000000,
+    0px 2px 0 #000000,
+    0px -2px 0 #000000,
+    -2px 0px 0 #000000,
+    2px 0px 0 #000000,
+    1px 2px 0 #000000,
+    -1px 2px 0 #000000,
+    1px -2px 0 #000000,
+    -1px -2px 0 #000000,
+    2px 1px 0 #000000,
+    -2px 1px 0 #000000,
+    2px -1px 0 #000000,
+    -2px -1px 0 #000000;
+    font-family: "rockwell", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+}
