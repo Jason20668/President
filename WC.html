@@ -17,25 +17,43 @@
 
 <body>
     <main>
-
-        <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
-            aria-controls="offcanvasExample">
-            <img class="bing" src="imgs/NavButton.png">
-        </a>
-        <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
-            aria-labelledby="offcanvasExampleLabel">
-            <div class="offcanvas-header">
-                <h5 class="offcanvas-title fs-1" id="offcanvasExampleLabel">James Buchanan</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
-            </div>
+        <div class="">
+            <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button"
+                aria-controls="offcanvasExample">
+                <img class="bing" src="imgs/NavButton.png">
+            </a>
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample"
+                aria-labelledby="offcanvasExampleLabel">
+                <div class="offcanvas-header">
+                    <a href="index.html">
+                    <h5 class="offcanvas-title fs-1" id="offcanvasExampleLabel">James Buchanan</h5>
+                    </a>
+                    <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                </div>
                 <a class="navbar-brand ms-2 fs-2" href="EL.html">Early Life</a>
-                <a class="navbar-brand ms-2 fs-2" href="PP.html">Politics and Presidency</a>
+                <a class="navbar-brand ms-2 fs-2" href="PP.html">Presidency</a>
                 <a class="navbar-brand ms-2 fs-2" href="WC.html">Works Cited</a>
             </div>
         </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <h1 class="text-center pt-2 sizing text-light">Works Cited</h1>
+            </div>
 
-
-
+            <h1 class="text-center fs-1">Here are all of the websites used to find the information on this page!</h1>
+            <br>
+            <h1 class="fs-2">1) “James Buchanan.” History.Com, A&E Television Networks, www.history.com/topics/us-presidents/james-buchanan. Accessed 2 Mar. 2025. </h1>
+            <br>
+            <h1 class="fs-2">2) Kelly, Martin. “10 Interesting Facts about James Buchanan.” ThoughtCo, ThoughtCo, 4 Jan. 2019, www.thoughtco.com/things-to-know-about-james-buchanan-104730.</h1>
+            <br>
+            <h1 class="fs-2">3) “James Buchanan.” National Archives and Records Administration, National Archives and Records Administration, clintonwhitehouse3.archives.gov/WH/glimpse/presidents/html/jb15.html. Accessed 2 Mar. 2025. </h1>
+            <br>
+            <h1 class="text-center fs-2">Thank you for looking at the most boring page here! As thanks have this random fact on James Buchanan. A new one pops up (they can repeat) everytime you reload the page try and get them all! </h1>
+        <div class="row align-items-center">
+            <p id="funFacts" class="text-center fs-2">Loading a fun fact...</p>
+            <button onclick="displayRandomFact()" class="align-items-center">Get Fun Fact</button>
+        </div>
 
 
 
